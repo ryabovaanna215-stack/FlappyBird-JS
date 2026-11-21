@@ -1,0 +1,22 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-image: url(/img/mainBack.jpg);
+    background-size: cover;
+    background-position: center;
+}
+@font-face {
+    font-family: Lapsus;
+    src: url(/LapsusPro-Bold.otf);
+}
+h1{
+    font-size: 80px;
+    font-family: Lapsus;
+    text-align: center;
+    letter-spacing: 2px;
+}

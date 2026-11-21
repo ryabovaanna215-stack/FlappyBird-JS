@@ -1,0 +1,49 @@
+.pause div{
+    padding: 30px;
+    background-color: white;
+    color: rgb(223, 171, 42);
+    width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    font-family: Lapsus;
+}
+
+.pause div h2{
+    font-size: 60px;
+    letter-spacing: 2px;
+    color: rgb(22, 80, 20);
+}
+.pause div p{
+    font-size: 30px;
+    font-family: Lapsus;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.pause div button{
+    background-color: rgb(223, 171, 42);
+    color: rgb(22, 80, 20);
+    font-family: Lapsus;
+    border-radius: 10px;
+    border: none;
+    padding:10px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    font-size: 40px;
+    animation: rotate 1s linear infinite;
+}
+.pause div button:hover{
+    background-color: rgb(22, 80, 20);
+    color: rgb(255, 255, 255);
+}
+@keyframes rotate{
+    0% { transform: rotate(-10deg); } 
+    50% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); } 
+}
+
+.active{
+    display: flex;
+}

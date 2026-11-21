@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/model.css">
+    <link rel="stylesheet" href="/css/pause.css">
+</head>
+<body>
+    <main>
+        <h1>Flappy Bird</h1>
+        <canvas id="canvas" width="900px" height="500px"></canvas>
+    </main>
+
+    <section class="modal" id="modalFail">
+        <div>
+            <h2>LOOSER</h2>
+            <p>Your score is <span class="score"></span></p>
+            <button id="Restart">Restart</button>
+        </div>
+    </section>
+
+    <section class="pause" id="stopPlay">
+        <div>
+            <h2>YOU HAVE A REST</h2>
+            <p>Click to CONTINUE to continue your play</p>
+            <button id="Continue">Continue</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
